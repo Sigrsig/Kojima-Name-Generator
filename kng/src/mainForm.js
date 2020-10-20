@@ -4,22 +4,18 @@ import { useForm, useStep } from "react-hooks-helper";
 import Front from "./frontPage"
 import Names from "./Names";
 import KojimaInfo from "./kojimaInfo";
+import NameConditions from "./nameConditions";
+
 
 const steps = [
 	{id: "Front"},
 	{id: "Names"},
 	{id: "KojimaInfo"},
+	{id: "NameConditions"}
 ];
 
 const defaultData = {
-	fullName: "Thomas Edward Yorke",
-	job : "--------Video Producer",
-	jobToo : "Producer",
-	pet: "Fish",
-	memory: "filler",
-	memorySh: "filler",
-	favChar: "Kurt Russel",
-	kubrickWord: "Orange",
+
 }
 
 const MainForm = ({images}) => {
@@ -35,6 +31,8 @@ const MainForm = ({images}) => {
 			return <Names {...props} />;
 		case "KojimaInfo": 
 			return <KojimaInfo {...props} />;
+		case "NameConditions":
+			return <NameConditions {...props}/>;
 		default:
 			return null;
 	} 

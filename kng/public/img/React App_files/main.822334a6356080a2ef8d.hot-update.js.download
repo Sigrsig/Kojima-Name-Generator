@@ -1,0 +1,178 @@
+webpackHotUpdate("main",{
+
+/***/ "./src/Names.js":
+/*!**********************!*\
+  !*** ./src/Names.js ***!
+  \**********************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _itemForm__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./itemForm */ "./src/itemForm.js");
+var _jsxFileName = "C:\\Users\\sosps\\OneDrive\\Documents\\GitHub\\Kojima-Name-Generator\\kng\\src\\Names.js";
+
+
+
+const Names = ({
+  setForm,
+  formData,
+  navigation
+}) => {
+  const {
+    fullName,
+    job,
+    jobToo,
+    pet,
+    memory,
+    memorySh
+  } = formData;
+  const {
+    next
+  } = navigation;
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "Form",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 11,
+      columnNumber: 3
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "flav-text",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 12,
+      columnNumber: 4
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", {
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 13,
+      columnNumber: 5
+    }
+  }, "Section 2: Personal Information"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 14,
+      columnNumber: 5
+    }
+  }, "Kojima\u2018s characters have names that are directly related to their own character traits. This information will make sure your name fits your personality.")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_itemForm__WEBPACK_IMPORTED_MODULE_1__["default"], {
+    className: "item",
+    label: "1. What is your full name?",
+    name: "fullName",
+    value: fullName,
+    onChange: setForm,
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 16,
+      columnNumber: 4
+    }
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_itemForm__WEBPACK_IMPORTED_MODULE_1__["default"], {
+    className: "item",
+    label: "2. What do you do at your occupation?",
+    name: "job",
+    value: job,
+    onChange: setForm,
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 23,
+      columnNumber: 6
+    }
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_itemForm__WEBPACK_IMPORTED_MODULE_1__["default"], {
+    className: "item",
+    label: "2a. Condense the verb in your answer into a single -er noun. (e.g. if you are a sheep farmer, your answer will be \u201CFarmer\u201D)",
+    name: "jobToo",
+    value: jobToo,
+    onChange: setForm,
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 30,
+      columnNumber: 4
+    }
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_itemForm__WEBPACK_IMPORTED_MODULE_1__["default"], {
+    className: "item",
+    label: "3. What was your first pet\u2018s specific species/breed? If you have never had a pet, please answer with an animal you wish you owned",
+    name: "pet",
+    value: pet,
+    onChange: setForm,
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 37,
+      columnNumber: 4
+    }
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_itemForm__WEBPACK_IMPORTED_MODULE_1__["default"], {
+    className: "item",
+    label: "4. What's your most embarrassing childhood memory? Be specific.",
+    name: "memory",
+    value: memory,
+    onChange: setForm,
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 44,
+      columnNumber: 4
+    }
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_itemForm__WEBPACK_IMPORTED_MODULE_1__["default"], {
+    className: "item",
+    label: "4a. Condense story into two words.",
+    name: "memorySh",
+    value: memorySh,
+    onChange: setForm,
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 51,
+      columnNumber: 4
+    }
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "buttSelect",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 58,
+      columnNumber: 4
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "nextButt",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 59,
+      columnNumber: 5
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", {
+    className: "fas fa-heart",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 60,
+      columnNumber: 6
+    }
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("button", {
+    className: "nextB",
+    onClick: next,
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 61,
+      columnNumber: 6
+    }
+  }, "Next"))));
+};
+
+/* harmony default export */ __webpack_exports__["default"] = (Names);
+
+/***/ })
+
+})
+//# sourceMappingURL=main.822334a6356080a2ef8d.hot-update.js.map
