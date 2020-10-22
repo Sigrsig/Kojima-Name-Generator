@@ -5,7 +5,7 @@ const Names = ({setForm, formData, navigation}) => {
 	const {fullName, job, jobToo, pet, memory, memorySh, stabbed, goodAt, carrots, intFear, tanFear, prior, bodyShape, matterSt, soundsLike, zodiak, personality} = formData;
 
 
-	const {next} = navigation;
+	const {previous, next} = navigation;
 	
 	return (
 		<div className="Form">
@@ -154,6 +154,10 @@ const Names = ({setForm, formData, navigation}) => {
 		
 		
 			<div className="buttSelect">
+				<div className="prevButt">
+					<i class="fas fa-grin-alt"></i>
+					<button className="prevB" onClick={previous}>Previous</button>
+				</div>
 				<div className="nextButt">
 					<i className="fas fa-heart"></i>
 					<button className="nextB" onClick={next}>Next</button>

@@ -62,6 +62,13 @@ input {
 
 
 /* Buttons */
+.roll-butt {
+	background-color: var(--mainFont);
+	border: none;
+	width: 4em;
+	height: 2em;
+}
+
 .nextButt {
 	display: flex;
 	align-items: center;

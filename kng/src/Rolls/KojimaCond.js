@@ -31,7 +31,7 @@ class KojimaCond extends Component {
         return(
             <div>
                 <p>{this.state.count}: {this.state.cond}</p>
-                <button onClick={() => this.rollFour()}>Roll</button>
+                <button class="roll-butt" onClick={() => this.rollFour()}>Roll</button>
             </div>
         );
     }

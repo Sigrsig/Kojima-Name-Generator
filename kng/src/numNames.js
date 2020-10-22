@@ -5,7 +5,7 @@ import NameNum from "./Rolls/NameNum";
 const NumNamePage = ({setForm, formData, navigation}) => {
 	const {test} = formData;
 
-	const {previous, next} = navigation;
+	const {next} = navigation;
 	
 	
 		
@@ -25,10 +25,6 @@ const NumNamePage = ({setForm, formData, navigation}) => {
 		
 		
 			<div className="buttSelect">
-				<div className="prevButt">
-					<i class="fas fa-grin-alt"></i>
-					<button className="prevB" onClick={previous}>Previous</button>
-				</div>
 				<div className="nextButt">
 					<i className="fas fa-heart"></i>
 					<button className="nextB" onClick={next}>Next</button>
