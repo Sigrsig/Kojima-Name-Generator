@@ -5,10 +5,12 @@ import Front from "./frontPage"
 import Names from "./Names";
 import KojimaInfo from "./kojimaInfo";
 import NameConditions from "./nameConditions";
+import NumNamePage from "./numNames";
 
 
 const steps = [
 	{id: "Front"},
+	{id: "NumNamePage"},
 	{id: "Names"},
 	{id: "KojimaInfo"},
 	{id: "NameConditions"}
@@ -27,6 +29,8 @@ const MainForm = ({images}) => {
 	switch (id) {
 		case "Front":
 			return <Front {...props} />;
+		case "NumNamePage":
+			return <NumNamePage {...props} />;
 		case "Names":
 			return <Names {...props} />;
 		case "KojimaInfo": 

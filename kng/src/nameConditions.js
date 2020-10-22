@@ -1,30 +1,17 @@
 import React from "react";
-
-import ItemForm from "./itemForm";
-
-const items = "fdsf";
-
-function getRandomInt() {
-  
-	alert("worked");
-}
-
-
+import Counter from "./Rolls/ManCond";
+import DEight from "./Rolls/CondCond";
+import DTwelve from "./Rolls/CloneCond";
+import KojimaCond from "./Rolls/KojimaCond";
 
 
 const NameConditions = ({setForm, formData, navigation}) => {
-	const {test } = formData;
+	const {test} = formData;
 
 	const {previous, next} = navigation;
 	
 	
-	const manCond = 0;
-	const condCond = 0;
-	const cloneCond = 0;
-	const kojimaCond = 0;
-	
-
-	
+		
 	return (
 		<div className="Form">
 			<div className="flav-text">
@@ -33,15 +20,20 @@ const NameConditions = ({setForm, formData, navigation}) => {
 			</div>
 			<div id="conditions">
 				<div id="manC">
-					<p>THE -MAN CONDITION: Roll a d4 to determine whether you have this condition</p>
-				
-					<p id="demo">{manCond}</p>
-					<button id="manButt" onClick="getElementById('demo').innerHTML = Date()">Click</button>
-		
-		
-
-		
-					
+					<h2>THE -MAN CONDITION: Roll a d4 to determine whether you have this condition</h2>
+					<Counter />
+				</div>
+				<div id="cond-cond">
+					<h2>THE CONDITION CONDITION: Roll a d8 to determine what this condition will do to you</h2>
+					<DEight />
+				</div>
+				<div id="clone-cond">
+					<h2>THE CLONE CONDITION: Roll a d12 to determine if you have this condition:</h2>
+					<DTwelve />
+				</div>
+				<div>
+					<h2>THE KOJIMA CONDITION: Rolld a d100 to determine if you have this condition:</h2>
+					<KojimaCond />
 				</div>
 			</div>
 		  	
