@@ -1,6 +1,6 @@
 # Kojima Name Generator
  
-Work in progress - Can be filled in but names do not generate (to do next week)
+No longer updated. New version found [Here](https://github.com/Sigrsig/Kojima2)
 
 A name generator based on the "Find your Kojima name" video from the Polygon youtube channel.
 Design is based on the UI in the game Death Stranding
